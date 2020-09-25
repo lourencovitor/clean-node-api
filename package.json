@@ -1,0 +1,22 @@
+{
+  "name": "clean-node-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hook": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "husky": "^5.0.0-alpha.5",
+    "lint-staged": "^10.4.0",
+    "standard": "^14.3.4"
+  }
+}
