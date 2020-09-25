@@ -10,17 +10,14 @@
     ]
   },
   "husky": {
-    "hook": {
+    "hooks": {
       "pre-commit": "lint-staged"
     }
   },
+  "author": "",
   "devDependencies": {
-    "husky": "^5.0.0-alpha.5",
-    "jest": "^26.4.2",
-    "lint-staged": "^10.4.0",
-    "standard": "^14.3.4"
-  },
-  "scripts": {
-    "test": "jest"
+    "husky": "^4.0.0-beta.5",
+    "lint-staged": "^9.4.3",
+    "standard": "^14.3.1"
   }
 }
