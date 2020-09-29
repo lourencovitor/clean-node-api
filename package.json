@@ -5,7 +5,8 @@
   "license": "MIT",
   "author": "",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll",
+    "test:staged": "jest"
   },
   "standard": {
     "env": [
